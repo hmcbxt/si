@@ -1,0 +1,86 @@
+html {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    background-color: rgb(107, 152, 182);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border: solid 3px rebeccapurple;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#cap {
+    background-color: rgb(218, 23, 23);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border: solid 3px rgb(51, 124, 153);
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    background-image: url(./monocarpeta/fondo.jfif),url(./monocarpeta/fondo.jfif),url(./monocarpeta/fondo.jfif),url(./monocarpeta/fondo.jfif);
+    background-size: 10%,10%,10%,10%;
+    background-position:left,center,right,left;
+    background-repeat: repeat-y,repeat-y,repeat-y,repeat-x;
+}
+#cos {
+    background-color: rgb(218, 23, 23);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border: solid 3px rgb(51, 124, 153);
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    background-image: url(./monocarpeta/fondo.jfif);
+    background-size: 10%;
+
+}
+#cos p{
+        background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    border: solid 2px red;
+    margin: 10px auto;
+    width:70%;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border: solid 3px rgb(0, 0, 0);
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    background-image: url(./monocarpeta/fondo.jfif);
+    background-size: 100%;
+    background-position:center;
+}
+.textpeu{
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    border: solid 2px red;
+    margin: 10px auto;
+    width:70%;
+    text-align: center;
+
+
+}
+.monoimagen{
+    width: auto;
+}
+#cos #llista{
+    list-style-position: inside;
+        background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    border: solid 2px red;
+    margin: 10px auto;
+    width:70%;
+    text-align: center;
+}
